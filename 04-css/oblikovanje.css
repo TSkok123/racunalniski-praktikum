@@ -1,6 +1,31 @@
+h1 {
+color: #330066;
+}
+h2 {
+   margin-top: 2em;
+   border-top: 1px #030303 solid;
+   padding-top: 0.5em;
+}
+.slika {border: 2px solid red;
+font-size: 0.9em;
+width: 40%;
+text-align: left;
+float: right;
+margin-left: 2em;
+
+}
+.slika img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.slika p:last-child {font-size: 0.8em; 
+    margin-top: 0em;
+}
+
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #333333; 
+    color: #0c0c0c; 
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
@@ -18,7 +43,13 @@ body {
     /*  Obojestranska poravnava besedila    */
     text-align: justify;
 }
+#uvod {
+padding: 2em;
+background-color: rgb(51, 0, 102, 0.1);
 
+
+
+}
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
